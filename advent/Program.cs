@@ -3032,8 +3032,7 @@ d4.part2(inputd4);
 Console.WriteLine();
 
 Console.WriteLine("day 5");
-d5.part1();
-d5.part2();
+d5.part1and2();
 Console.WriteLine();
 
 //test
