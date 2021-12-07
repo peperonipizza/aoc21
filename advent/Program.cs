@@ -6,6 +6,7 @@ Day_3 d3 = new Day_3();
 Day_4 d4 = new Day_4();
 Day_5 d5 = new Day_5();
 Day_6 d6 = new Day_6();
+Day_7 d7 = new Day_7();
 
 // inputs
 int[] inputd1 = {150
@@ -3039,6 +3040,11 @@ Console.WriteLine();
 Console.WriteLine("day 6");
 d6.part1(80);
 d6.part2(256);
+Console.WriteLine();
+
+Console.WriteLine("day 7");
+d7.part1();
+d7.part2();
 Console.WriteLine();
 
 //test
