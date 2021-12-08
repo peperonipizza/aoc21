@@ -1,6 +1,5 @@
 ﻿using advent;
 
-Day_1 d1 = new Day_1();
 Day_2 d2 = new Day_2();
 Day_3 d3 = new Day_3();
 Day_4 d4 = new Day_4();
@@ -3014,8 +3013,8 @@ string inputd3 = @"C:\Users\julia\source\repos\advent\advent\inputs\inputday3.tx
 string inputd4 = @"C:\Users\julia\source\repos\advent\advent\inputs\inputday4.txt";
 
 Console.WriteLine("day 1");
-d1.part1(inputd1);
-d1.part2(inputd1);
+Day_1.part1(inputd1);
+Day_1.part2(inputd1);
 Console.WriteLine();
 
 Console.WriteLine("day 2");
@@ -3045,6 +3044,11 @@ Console.WriteLine();
 Console.WriteLine("day 7");
 d7.part1();
 d7.part2();
+Console.WriteLine();
+
+Console.WriteLine("Day 8");
+
+
 Console.WriteLine();
 
 //test

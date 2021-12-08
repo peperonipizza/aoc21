@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace advent
 {
-    internal class Day_8
+    public class Day_8
     {
     }
 }
